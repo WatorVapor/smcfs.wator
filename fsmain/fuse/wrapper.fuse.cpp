@@ -2,4 +2,5 @@
 extern "C" {
 #include <fuse.h>
 }
-
+static const struct fuse_operations smcfs = {
+};
