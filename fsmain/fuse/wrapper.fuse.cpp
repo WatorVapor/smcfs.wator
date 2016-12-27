@@ -1,3 +1,5 @@
 #define FUSE_USE_VERSION 30
+extern "C" {
 #include <fuse.h>
+}
 
